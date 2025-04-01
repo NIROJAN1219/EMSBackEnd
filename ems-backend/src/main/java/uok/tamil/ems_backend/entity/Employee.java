@@ -21,6 +21,7 @@ public class Employee {
  private String lastname;
     @Column(name="email",nullable = false,unique = true)
  private String email;
+//Vijay mass
 
     public long getId() {
         return id;
@@ -61,3 +62,4 @@ public class Employee {
         this.email = email;
     }
 }
+
